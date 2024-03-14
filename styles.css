@@ -4350,6 +4350,13 @@ textarea.form-control-lg {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .portfolio-image {
+    width: 100%; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+  }
+}
+
 .accordion {
   --bs-accordion-color: #212529;
   --bs-accordion-bg: #fff;
@@ -11077,10 +11084,5 @@ html {
   background-color: #1a252f;
 }
 
-@media only screen and (max-width: 768px) {
-  .portfolio-image {
-    width: 100%; /* Adjust the width as needed */
-    height: auto; /* Maintain the aspect ratio */
-  }
-}
+
 
